@@ -5,16 +5,16 @@ let beltModel;
 let stars = [];
 
 function preload() {
-  celestialModel = loadModel('/models/celestial.obj', true);
-  moonModel = loadModel('/models/moon.obj', true);
-  lineModel = loadModel('/models/lines.obj', true);
-  beltModel = loadModel('/models/belt.obj', true);
+  celestialModel = loadModel('models/celestial.obj', true);
+  moonModel = loadModel('models/moon.obj', true);
+  lineModel = loadModel('models/lines.obj', true);
+  beltModel = loadModel('models/belt.obj', true);
 
-  moonImg = loadImage('/textures/rock.jpg');
-  sunImg = loadImage('/textures/sun.jpg');
-  earthImg = loadImage('/textures/earth.jpg');
-  mercImg = loadImage('/textures/merc.jpg');
-  jupiterImg = loadImage('/textures/jupiter.jpg');
+  moonImg = loadImage('textures/rock.jpg');
+  sunImg = loadImage('textures/sun.jpg');
+  earthImg = loadImage('textures/earth.jpg');
+  mercImg = loadImage('textures/merc.jpg');
+  jupiterImg = loadImage('textures/jupiter.jpg');
 }
 
 
