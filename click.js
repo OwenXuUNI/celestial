@@ -54,7 +54,7 @@ function mousePressed() {
       mouseX >= link.x && mouseX <= link.x + link.w &&
       mouseY >= link.y && mouseY <= link.y + link.h
     ) {
-      window.open("power.html"); 
+      window.location.href = "power.html"; 
       return;
     }
   }
