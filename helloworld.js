@@ -1,5 +1,3 @@
-let circleSize;
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(24);
@@ -8,15 +6,11 @@ function setup() {
 
 
 function draw() {
-  circleSize = random(100,800);
-  
   r= random(255);
   g= random(255);
   b = random(255);
   
   fill(r,g,b, 20);
-  textSize(300);
-  text("hello world", mouseX, mouseY);
-  circle(width/2, height/2, circleSize);
-  
+  textSize(100);
+  text("hello world, this is the end", mouseX, mouseY);  
 }
