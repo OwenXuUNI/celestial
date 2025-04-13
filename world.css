@@ -27,7 +27,7 @@ html, body {
 #container-wrapper {
   width: 1605px;
   height: 874px;
-  transform-origin: top left;
+  transform-origin: center center;
 }
 
 #canvas-container {
