@@ -41,6 +41,8 @@ a{
     width:60px;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
+    z-index: 999;
 }
 
 #circle:hover{
